@@ -217,7 +217,118 @@
 }
 
 /* future end  */
+/* donate start  */
 
+.donate {
+  width: 1280px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: #c6e4d6;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px;
+  margin-bottom: 50px;
+}
+.donate h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+.donate p {
+  color: #0e0e0e;
+  opacity: 70%;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+.donate .price-boxes {
+  display:inline-flexbox;
+}
+.donate input {
+  width: 1032px;
+  height: 64px;
+  border: none;
+  background: white;
+}
+input[type="number"] {
+  text-align: center;
+  font-size: 20px;
+  color: #0e0e0e;
+}
+
+.donate .donate-input {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+.donate .input-btn button {
+  padding: 17px 34px;
+  display: inline;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  border-radius: 8px;
+  color: white;
+  border: none;
+  background-color: #006a50;
+}
+/* donate end  */
+
+/* newletter start  */
+.newsletter {
+  width: 1280px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: #c6e4d6;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px;
+  margin-bottom: 50px;
+}
+.newsletter-container h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+.newsletter-container p {
+  color: #0e0e0e;
+  opacity: 75%;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+.inputbtn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+.inputbtn input {
+  width: 600px;
+  height: 56px;
+  border: none;
+  border-radius: 8px 0 0 8px;
+  background: rgb(255, 255, 255);
+}
+::placeholder {
+  color: #0e0e0e;
+  opacity: 30%;
+  font-size: 16px;
+  padding: 0 40px;
+}
+.inputbtn button {
+  padding: 17px 34px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  border-radius: 0 8px 8px 0;
+  color: white;
+  border: none;
+  background-color: #006a50;
+}
+
+/* newletter end  */
 /* footer start  */
 .footer-container {
   width: 1456px;
