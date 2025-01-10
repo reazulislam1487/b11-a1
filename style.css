@@ -51,6 +51,7 @@
   background-color: #c6e4d6;
   display: flex;
   justify-content: space-between;
+  border-radius: 24px;
 }
 .text-container {
   padding: 117px 60px;
@@ -216,3 +217,25 @@
 }
 
 /* future end  */
+
+/* footer start  */
+.footer-container {
+  width: 1456px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.footer-container .border-bottom {
+  margin: 32px auto;
+  text-align: center;
+  border-bottom: 1px solid #0e0e0e1a;
+  width: 1122px;
+}
+.social-media {
+  width: 120px;
+  height: 24px;
+  margin: 0 auto;
+  display: flex;
+  gap: 23px;
+}
+/* footer end  */
