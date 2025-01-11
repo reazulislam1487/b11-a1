@@ -40,6 +40,10 @@
   border: 1px solid #006a50;
   border-radius: 8px;
   color: #006a50;
+  cursor: pointer;
+}
+.btn button:hover {
+  background-color: #c6e4d6;
 }
 /* navbar end */
 
@@ -78,6 +82,10 @@
   border-radius: 8px;
   color: white;
   background-color: #006a50;
+  border: none;
+}
+.main .btn button:hover {
+  background-color: #09a15c;
 }
 .main .main-pic {
   margin: auto 0;
@@ -163,6 +171,10 @@
   color: white;
   border: none;
   z-index: 2;
+  cursor: pointer;
+}
+.future-card .card1 button:hover {
+  background-color: #0661ff;
 }
 /* card2  */
 .future-card .card2 {
@@ -188,6 +200,10 @@
   color: white;
   border: none;
   z-index: 2;
+  cursor: pointer;
+}
+.future-card .card2 button:hover {
+  background-color: #03532f;
 }
 /* card3 */
 .future-card .card3 {
@@ -213,10 +229,14 @@
   color: white;
   border: none;
   z-index: 2;
+  cursor: pointer;
+}
+.future-card .card3 button:hover {
+  background-color: #ad7900;
 }
 
 /* future end  */
-/* yunus start */
+/*Dr yunus start */
 .yunus {
   width: 1280px;
   height: 256px;
@@ -253,7 +273,7 @@
   color: #0e0e0e;
   opacity: 60%;
 }
-/* yunus  end */
+/* Dr yunus  end */
 
 /* recent start  */
 .recent {
@@ -315,6 +335,10 @@
   color: white;
   border: none;
   background-color: #006a50;
+  cursor: pointer;
+}
+.recent .text-container button:hover {
+  background-color: #09a15c;
 }
 .recent .box-container .img-container img {
   border-radius: 24px;
@@ -365,8 +389,11 @@
   color: white;
   border: none;
   background-color: #006a50;
+  cursor: pointer;
 }
-
+.text-container2 button:hover {
+  background-color: #09a15c;
+}
 .text-container2 img {
   width: 135px;
 }
@@ -418,6 +445,10 @@
   color: white;
   border: none;
   background-color: #006a50;
+  cursor: pointer;
+}
+.text-container3 button:hover {
+  background-color: #09a15c;
 }
 .box-container3 .img-container3 img {
   border-radius: 24px;
@@ -471,6 +502,7 @@
   opacity: 70%;
   font-size: 16px;
   margin-bottom: 24px;
+  margin-top: 20px;
 }
 .donate .price-boxes {
   display: flex;
@@ -480,6 +512,10 @@
 .donate .price-boxes .box1 {
   background-color: white;
   border-radius: 16px;
+  cursor: pointer;
+}
+.donate .price-boxes .box1:hover {
+  background-color: #10cc74;
 }
 .donate .price-boxes .box1 h1 {
   color: #0e0e0e;
@@ -492,6 +528,10 @@
 .donate .price-boxes .box2 {
   border-radius: 16px;
   background-color: #c6e4d6;
+  cursor: pointer;
+}
+.donate .price-boxes .box2:hover {
+  background-color: #10cc74;
 }
 .donate .price-boxes .box2 h1 {
   color: #0e0e0e;
@@ -504,6 +544,10 @@
 .donate .price-boxes .box3 {
   background-color: white;
   border-radius: 16px;
+  cursor: pointer;
+}
+.donate .price-boxes .box3:hover {
+  background-color: #10cc74;
 }
 .donate .price-boxes .box3 h1 {
   color: #0e0e0e;
@@ -515,6 +559,10 @@
 .donate .price-boxes .box4 {
   background-color: white;
   border-radius: 16px;
+  cursor: pointer;
+}
+.donate .price-boxes .box4:hover {
+  background-color: #10cc74;
 }
 .donate .price-boxes .box4 h1 {
   color: #0e0e0e;
@@ -551,6 +599,10 @@ input[type="number"] {
   color: white;
   border: none;
   background-color: #006a50;
+  cursor: pointer;
+}
+.donate .input-btn button:hover {
+  background-color: #09a15c;
 }
 /* donate end  */
 
@@ -605,6 +657,10 @@ input[type="number"] {
   color: white;
   border: none;
   background-color: #006a50;
+  cursor: pointer;
+}
+.inputbtn button:hover {
+  background-color: #09a15c;
 }
 
 /* newletter end  */
@@ -627,5 +683,6 @@ input[type="number"] {
   margin: 0 auto;
   display: flex;
   gap: 23px;
+  cursor: pointer;
 }
 /* footer end  */
